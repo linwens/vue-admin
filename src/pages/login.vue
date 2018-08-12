@@ -63,7 +63,6 @@ export default {
         loginSubmit(formName) {
             this.$refs[formName].validate((valid) => {
                 if(valid){
-                    console.log('submit success');
                     let datas = {
                         username: this.loginForm.username, 
                         password: this.loginForm.password, 
@@ -71,7 +70,6 @@ export default {
                     };
                     //如果是游客不发请求
                     if(this.loginForm.username==='guests'){
-                        console.log('游客进来了');
                         let guests = {
                             type:'guests'
                         }

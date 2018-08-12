@@ -40,7 +40,7 @@ export const asyncRouterMap = [
 const router = new Router({
     routes:cmnRouterMap
 });
-if (store.state.user.uid||store.state.user.type==='guests') {
+if (store.state.user.type==='mc'||store.state.user.type==='guests') {
     //生成动态侧边栏
     store.dispatch('ADD_ROUTERS',store.state.user).then(res=>{
         var lcHash = window.location.hash;
