@@ -44,5 +44,6 @@ blog-admin是与个人博客享配套的博客后台系统，基于vue和element
 	npm run build
 
 # 其他
-
-目前正在寻求一份前端开发的岗位，邮件联系LWS200841001@163.com
+ 初衷是给自己的博客写个发文章的系统，个人博客的代码可查看https://github.com/linwens/node-blog ，欢迎交流学习~
+ by the way...
+ 目前正在寻求一份前端开发的岗位，欢迎HR小姐姐/小哥哥骚扰~~ 邮件联系LWS200841001@163.com
